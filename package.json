@@ -10,9 +10,19 @@
   "author": "",
   "license": "ISC",
   "type": "commonjs",
-
   "Dependencies": {
     "chai": "^4.4.1",
     "mocha": "^10.2.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ldavis57/Week09-coding-assignment.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ldavis57/Week09-coding-assignment/issues"
+  },
+  "homepage": "https://github.com/ldavis57/Week09-coding-assignment#readme"
 }
