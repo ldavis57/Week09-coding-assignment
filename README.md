@@ -2,7 +2,7 @@
  
 <div align="center">
   <h1>
-    🎮 <strong>War Game App</strong>
+    ⚔️ <strong>Game of War</strong> ⚔️
   </h1>
 
   <h2>
