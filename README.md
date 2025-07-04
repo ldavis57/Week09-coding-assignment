@@ -1,8 +1,8 @@
 # Front-End Week 9 JavaScript Coding Assignment
+ 
 <div align="center">
-
-  <h1 foreground>
-    <span style="color: red;">War Game App</span>
+  <h1>
+    🎮 <strong>War Game App</strong>
   </h1>
 
   <h2>
@@ -31,7 +31,7 @@
 <details>
   <summary>Mocha and Chai</summary>
   <ul>
-    <li><a href="https://www.npmjs.com/">Mocha</a></li>  
+    <li><a href="https://mochajs.org/">Mocha</a></li>  
   </ul>
 </details>
 
