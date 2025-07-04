@@ -1,14 +1,15 @@
 const { Deck } = require('../index.js'); // Import the Deck class from the main file
 
-// Save this in test/deck.test.js
-const { expect } = require('chai');
+const { expect } = require('chai'); // Import Chai for assertions
 
-describe('Deck', () => {
-    it('should shuffle deck so the order changes', () => {
-        const deck = new Deck();
-        const originalOrder = deck.cards.map(card => card.value + card.suit);
-        deck.shuffle();
-        const shuffledOrder = deck.cards.map(card => card.value + card.suit);
-        expect(shuffledOrder).to.not.deep.equal(originalOrder);
+
+// Test suite for the Deck class
+describe('Deck', () => { 
+    it('should shuffle deck so the order changes', () => { // Test to ensure the deck is shuffled
+        const deck = new Deck(); // Create a new instance of the Deck class
+        const originalOrder = deck.cards.map(card => card.value + card.suit); // Store the original order of the cards
+        deck.shuffle(); // Shuffle the deck
+        const shuffledOrder = deck.cards.map(card => card.value + card.suit); // Get the order of the cards after shuffling
+        expect(shuffledOrder).to.not.deep.equal(originalOrder); // Assert that the shuffled order is different from the original order
     });
 });

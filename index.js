@@ -139,7 +139,7 @@ function playWarGame() {
 playWarGame(); // Calls the playWarGame function to start the game
 
 // Only export if running in Node.js (for testing)
-if (typeof module !== 'undefined') {
-  module.exports = { Deck };
+if (typeof module !== 'undefined') { // Check if module is defined (indicating Node.js environment)
+  module.exports = { Deck }; // Export the Deck class for testing
 }
 
