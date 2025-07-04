@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>War Card Game App</title>
+    <script src="index.js"></script>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+</head>
+
+<body class="body">
+    <div class="container" style="text-align: left; padding: 40px; color: #000000;">
+        <h3>
+            Coding Steps:
+        </h3>
+        <ul>
+            <li>For the final project you will be creating an automated version of the classic card game WAR! There are
+                many
+                versions of the game WAR. In this version there are only 2 players.
+                <ul>
+                    <li>You do not need to do anything special when there is a tie in a round.</li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li>Think about how you would build this project and write your plan down. Consider classes such as: Card,
+                Deck,
+                Player,
+                as well as what properties and methods they may include.</li>
+        </ul>
+        <p>
+            Four suits to represent the appearance (user interface - ui) for your cards
+            <br>let cardSuits = ["Spades 🗡️", "Hearts ❤️", "Diamonds 💎", "Clubs 🍀"];
+            <br>console.log("Card Suits Example:", cardSuits);
+        </p>
+
+
+        <ul>
+            <li>
+                The game itself will automatically play using console.log() to display turns, points, cards used, and
+                the
+                outcome of
+                the game. No user input via prompts is required.
+            </li>
+        </ul>
+
+
+        The completed project should, when executed, do the following:
+
+        <ol>
+            <li>Deal 26 Cards to each Player from a Deck of 52 cards.</li>
+            <li>Iterate through the turns where each Player plays a Card.</li>
+            <li>The Player who played the higher card is awarded a point.
+                <br>- Ties result in zero points for both Players.
+            </li>
+            <li>After all cards have been played, display the score and declare the winner.</li>
+        </ol>
+
+
+        <p><b>The following is extra credit (10pts)</b></p>
+        <ul>
+            <li>Write a Unit Test using Mocha and Chai for at least one of the functions you write</li>
+        </ul>
+
+        <p>
+            <b>Note Mocha/Chai:</b> The Mocha/Chai framework recently removed Common JS functionality, you will need to
+            use these
+            specific versions in order to follow the video:
+            <br><br>
+            chai: "^4.3.10"<br>
+            mocha: "^10.2.0"<br><br>
+            You can use this boiler plate project for your unit testing:<br>
+            <a href="https://github.com/Masheen88/Mocha_Chai_Unit_Testing" target="_blank" rel="noopener">Mocha/Chai
+                Github Repository</a>
+        </p>
+
+        <h1 class="title">By Lana Davis</h1>
+
+    </div class="container"> >
+</body>
+
+</html>
