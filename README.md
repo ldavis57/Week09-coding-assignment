@@ -31,7 +31,7 @@
 <details>
   <summary>Mocha and Chai</summary>
   <ul>
-    <li><a href="https://mochajs.org/" target="blank">Mocha</a></li>  
+    <li><a href="https://mochajs.org/" target="_blank">Mocha</a></li>  
   </ul>
 </details>
 
