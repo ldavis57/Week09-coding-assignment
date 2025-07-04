@@ -1,13 +1,13 @@
 # Front-End Week 9 JavaScript Coding Assignment
 <div align="center">
 
-  <p>
+  <h2>
     Showcasing JavaScript.
-  </p>
+  </h2>
     
-  <p>
+  <h1>
     War Game App
-  </p>
+  </h1>
   
 </div>
 
