@@ -16,22 +16,22 @@
 <details>
   <summary>HTML</summary>
   <ul>
-    <li><a href="https://www.w3schools.com/html/" target="_blank">HTML Tutorial</a></li>
+    <li><a href="https://www.w3schools.com/html/">HTML Tutorial</a></li>
   </ul>
 </details>
 
 <details>
   <summary>JavaScript</summary>
   <ul>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">JavaScript MDN Web Docs</a></li>
-    <li><a href="https://www.npmjs.com/" target="_blank">NPM</a></li>  
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript MDN Web Docs</a></li>
+    <li><a href="https://www.npmjs.com/">NPM</a></li>  
   </ul>
 </details>
 
 <details>
   <summary>Mocha and Chai</summary>
   <ul>
-    <li><a href="https://mochajs.org/" target="_blank">Mocha</a></li>  
+    <li><a href="https://mochajs.org/">Mocha</a></li>  
   </ul>
 </details>
 
